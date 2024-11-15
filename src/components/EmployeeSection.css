@@ -1,0 +1,173 @@
+/* Main content style */
+.employee-section {
+    display: flex;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 300px; /* Adjust according to sidebar width */
+    /* padding: 20px;  */
+    flex: 1; /* Allow it to take remaining space */
+    background-color: #f9f9f9; /* Optional: Add a background color for visibility */
+}
+
+
+.sorting-controls{
+    margin-left: 5%;
+}
+
+/* Add Employee Button */
+.add-employee-btn {
+    margin-bottom: 20px; /* Space between button and list */
+    background-color:  #556e87;
+    ; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+.add-employee-btn:hover{
+    background-color: #749BC2;
+}
+/* Employee List Container */
+.employee-list-container {
+    margin-top: 20px;
+}
+
+/* List Heading */
+.list-heading {
+    background-color: #556e87; /* Dark background for the heading */
+    color: white;
+    padding: 20px;
+    /* border-radius: 5px; */
+    text-align: center;
+}
+
+/* Employee List */
+.employee-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Employee Item */
+.employee-item {
+    display: flex;
+    justify-content: space-between; /* Align name and button */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for list items */
+}
+
+/* Remove Employee Button */
+.remove-employee-btn {
+    background-color: #e74c3c; /* Red background for remove button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.employee-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.employee-table td button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.employee-table td button:hover {
+    background-color: #ff1a1a;
+}
+
+
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show{
+    display: flex;
+}
+
+.modal-content {
+    /* height: 80% */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Employee Form Styles */
+.employee-form {
+   
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.employee-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.employee-form input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 5px;
+    color: black;
+}
+
+/* Add Employee Button in Modal */
+.modal button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal button:first-child {
+    background-color: #3498db; /* Blue background for add employee button */
+    color: white;
+}
+
+.modal button:last-child {
+    background-color: #e74c3c; /* Red background for close button */
+    color: white;
+}

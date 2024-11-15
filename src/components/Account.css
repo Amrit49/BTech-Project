@@ -1,0 +1,180 @@
+.account-page {
+    font-family: 'Arial', sans-serif;
+}
+
+.account-info-box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-left: 35% ; */
+}
+
+.account-heading {
+    background-color: #556e87;
+    color: white;
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 20px -20px;
+    text-align: center;
+}
+
+/* User Details Styling */
+.user-details-box .field-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.user-details-box .field-wrapper p {
+    background-color: #556e87;
+    color: white;
+    padding: 11px;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.user-details-box .field-wrapper .value {
+    color: #333;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    width: 65%;
+    text-align: center;
+}
+
+.user-details-box .field-wrapper input {
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 65%;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Buttons Styling */
+.edit-btn, .designate-role-btn, .change-password-btn {
+  background-color: #556e87;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  width: 20%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-btn:hover, .designate-role-btn:hover, .change-password-btn:hover {
+  background-color: #2a4765;
+}
+
+
+/* Designation Form Box */
+.designation-form-box {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.form-heading {
+    background-color: #556e87;
+    color: white;
+    padding: 10px;
+   
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    width: calc(100% + 40px);
+    transform: translateX(-20px);
+    box-sizing: border-box;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #556e87;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #2a4765;
+}
+
+/* Button Section for Modal */
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close Button */
+.close-btn {
+    color: black;
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.close-btn:hover {
+    color: black;
+}

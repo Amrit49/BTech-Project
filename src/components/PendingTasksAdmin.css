@@ -1,0 +1,42 @@
+
+  
+  .pending-tasks-admin-section {
+    margin-top: 100px;
+  }
+  
+  .pending-tasks-admin-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 25%;
+  }
+  
+  .pending-tasks-admin-table th, .pending-tasks-admin-table td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .pending-tasks-admin-table th {
+    background-color: #556e87;
+    color: white;
+  }
+  
+  .pending-tasks-admin-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .view-leave-btn {
+    background-color: #556e87;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .view-leave-btn:hover {
+    background-color: #2a4765;
+  }
+  

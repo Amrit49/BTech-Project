@@ -1,0 +1,176 @@
+/* LoginPage.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%; /* Ensure the body takes full height */
+    width: 100%; /* Ensure the body takes full width */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+  .login-page {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    /* background-color: #59a5d8; */
+    /* background-color: #E9F1FA; */
+    /* background-color: #468da4; */
+    /* background-color: #749BC2; */
+    background-color: #556e87;
+    /* background-color: #4595b0; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('../assets/bg.jpg'); */
+    /* overflow: hidden; */
+    width: 100%;
+  }
+  
+  .wrapper {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+    max-width: 1400px;
+    height: 550px;
+    position: relative;
+  }
+  
+  .wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  h2 {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+
+  .login_left {
+    width: 50%; /* Takes half of the wrapper */
+    /* background: url('../assets/bg1.webp') no-repeat center center; */
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* flex:1; */
+  }
+  
+  .login_left .college-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Right side for login form */
+  /* .wrapper .login_right {
+    width: 70%;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+   */
+
+   .login_right {
+    width: 400px; /* Define fixed width */
+    height: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px; /* Curved border */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    margin-top: 5%;
+    margin-right: 5%;
+    flex: 1;
+  }
+
+  .logo-title-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .college-logo {
+    width: 90px;
+    height: auto;
+    /* margin-bottom: 10px; */
+  }
+  
+  .app-title {
+    font-size: 39px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 50px;
+  }
+   
+
+  .input-box {
+    /* margin-top: 10%; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 25%;
+  }
+  
+
+  .input-box input {
+    width: 80%;
+    padding: 10px;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login__icon {
+    position: absolute;
+    left: 10px;
+    color: #555;
+  }
+  
+
+  .login-button {
+    position:relative;
+    z-index:10;
+    padding: 10px;
+    width: 30%;
+    background-color: #556e87;
+    margin-left: 40%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.login-button:hover {
+    background-color: #2a4765; /* Darker color on hover */
+}
+
+
+  /* @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 2500px;
+    }
+} */

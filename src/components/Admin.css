@@ -1,0 +1,97 @@
+/* Navbar */
+
+.admin-dashboard {
+    margin-left: 300px; /* Offset the content to the right of the fixed sidebar */
+    /* padding: 20px; */
+    min-height: 100vh; /* Ensures the content takes up the full viewport height */
+    background-color: #f4f6f9;
+}
+
+.dashboard-heading {
+    background-color: #556e87; /* Change background color as per your design */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    /* margin-bottom: 30px;  */
+}
+
+.dashboard-heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.dashboard-heading p {
+    font-size: 1.2rem;
+}
+
+/* Adjust dashboard cards grid */
+.stats-grid {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 80px;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+
+
+.admin-stat-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    /* margin-left: 30%; */
+    max-width: 350px;
+}
+
+.admin-stat-card h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #556e87;
+}
+
+.admin-stat-card p{
+    font-size: 1.5rem;
+    color: #556e87;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.card-icon {
+    font-size: 2.6rem;
+    color: #556e87;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .admin-dashboard {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
+}

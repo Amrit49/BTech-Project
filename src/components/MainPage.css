@@ -1,0 +1,15 @@
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for better appearance */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
